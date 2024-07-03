@@ -1,13 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer utilities {
   .allNews {
     @apply flex flex-col md:flex-row gap-8 border mb-5 border-slate-300 py-4 px-4 hover:scale-105 transition-all duration-300;
   }
   .spanStyle {
-    @apply bg-[#5677AC26]  text-black text-xs md:text-sm px-1 rounded dark:bg-white dark:bg-white dark:text-black;
+    @apply bg-[#5677AC26]  text-black text-xs md:text-sm px-1 rounded  dark:bg-white dark:text-black;
   }
   .newsImageStyle {
     @apply w-full h-[250px] md:w-[180px] object-cover md:h-fit hover:scale-105 transition-all duration-300 hover:rounded-lg;
