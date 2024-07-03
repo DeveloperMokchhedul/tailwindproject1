@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ticker AI</title>
+        <link href="css/using-heroicons.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body class="bg-white dark:bg-slate-700 dark:text-white">
+
+        <header class="  py-5 dark:bg-black">
+            <nav class="mx-3 md:mx-auto md:container flex justify-between items-center ">
+                <div class="flex items-center gap-2 md:gap-5">
+                    <a href="index.html">
+                        <img class="w-12 md:w-full" src="./assets/tickerAI-logo 1.png"
+                            alt>
+                    </a>
+
+                    <p class="text-[8px] md:text-[12px]">A Mark Cuban Company <br>
+                        AI-based Financial Market News Aggregator</p>
+                </div>
+                <div class="flex md:gap-5 gap-2 items-center">
+                    <a href="index.html">
+                        <button
+                            class="bg-[#5677AC] md:py-2 md:px-4 p-2 rounded-md  text-white text-[10px] md:text-[15px]">Personalize
+                            News</button>
+                    </a>
+
+                    <div
+                        class="md:size-9 size-6 dark:bg-slate-100 dark:text-black bg-[#5677AC]  rounded-full flex items-center justify-center cursor-pointer">
+                        <span class="text-[12px] md:text-[15px]">IK</span>
+                    </div>
+                    <button id="colorChanger">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1"
+                            stroke="currentColor" class="size-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                        </svg>
+                    </button>
+
+                </div>
+            </nav>
+        </header>
+
+        <div class=" dark:bg-gray-700 bg-[#F0F0F0]  min-h-screen">
+            <div class="mx-3 md:container md:mx-auto pt-10">
+                <div class="border-b-2 dark:border-white border-black pb-2">
+                    <h2 class="uppercase text-lg font-semibold">Personolize your news</h2>
+                </div>
+                <div class="md:w-2/5 w-full dark:bg-gray-500 bg-white mt-10  mx-auto p-5 rounded">
+                    <p class="font-semibold text-center pb-7 pt-5 ">Select your Markets</p>
+                    <div class="flex flex-col gap-y-7 pb-4 ">
+                        <button class="marketBtn">Stocks</button>
+                        <button class="marketBtn">Crypto</button>
+                        <button class="marketBtn">Economy & Business</button>
+                        <button class="marketBtn">Commodities| Forex</button>
+                        <button class="marketBtn">Fixed Income</button>
+                        <button class="w-full bg-[#8ba5d0]  font-semibold rounded-lg py-4 text-white hover:bg-[#42669e] transition-all duration-300">Continue</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="bg-black dark:bg-white dark:text-black text-white text-center py-2 w-full">
+            All right reserved to mokchhedul islam - 2024
+        </footer>
+
+        <script>
+            const htmlTagSelect = document.getElementById('htmlTag')
+            document.getElementById('colorChanger').addEventListener("click", function(){
+                htmlTagSelect.classList.toggle('dark')
+
+
+            })
+
+
+
+        </script>
+
+    </body>
+</html>
