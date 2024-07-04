@@ -9,7 +9,7 @@
     @apply bg-[#5677AC26]  text-black text-xs md:text-sm px-1 rounded  dark:bg-white dark:text-black;
   }
   .newsImageStyle {
-    @apply w-full h-[250px] md:w-[180px] object-cover md:h-fit hover:scale-105 transition-all duration-300 hover:rounded-lg;
+    @apply w-full h-[250px] md:w-[170px] object-cover md:h-fit hover:scale-105 transition-all duration-300 hover:rounded-lg;
   }
   .marketBtn {
     @apply w-full bg-[#E6EBF3] py-4 font-semibold rounded-full hover:bg-slate-300 transition-all duration-200
